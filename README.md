@@ -8,7 +8,7 @@ This web component would allow you to use HTML like
 <time-difference time="{some time value you pass in: e.g. when your post was created}"></time-difference>
 ```
 (for example)
-```
+```html
 <div><time-difference time="2030-03-07T00:00:00Z" /></div>
 ```
 … and the web component will automatically turn it into a human-readable string, like "4 minutes ago", "5 hours from now", etc.
